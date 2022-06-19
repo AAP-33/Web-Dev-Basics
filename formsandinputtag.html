@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms & Input tag</title>
+  </head>
+  <body>
+    <form action="backend.phpp">
+      <label for="name">Name:</label>
+      <div><input type="text" name="name" id="name" /></div>
+      <br />
+      <div>role:<input type="text" name="role" /></div>
+      <br />
+      <div>email:<input type="email" name="email" /></div>
+      <br />
+      <div>Date:<input type="date" name="date" /></div>
+      <br />
+      <div>ph no.:<input type="number" name="date" /></div>
+      <br />Gender:
+      <div>Male:<input type="radio" name="bla" /></div>
+      <div>Bartan dhone vali:<input type="radio" name="bla" /></div>
+      <br />
+      <div>pta nhi:<input type="checkbox" name="ll" /></div>
+      <br />
+      <div>sach me pta nhi:<input type="checkbox" name="ll" /></div>
+      <br />
+      <div>
+        sab janta hai tera bhai:<input type="checkbox" name="ll" checked />
+      </div>
+      <br />
+      <div style="border: 2px solid red">
+        <label for="car">MyCar:</label>
+        <select name="myCar" id="car">
+          <!-- <optgroup>
+            Maruti -->
+          <option value="1.">Swift</option>
+          <!-- </optgroup> -->
+          <option value="2.">Audi</option>
+          <option value="3." selected>
+            Koeniggsegg Lorem ipsum dolor sit amet consectetur, adipisicing
+            elit. Explicabo nam neque autem nostrum harum repellendus nesciunt
+            placeat laboriosam, totam quasi pariatur saepe ipsum quos earum
+            possimus, ex, tenetur eaque quas.
+          </option>
+        </select>
+      </div>
+      Write About yourself: <br /><textarea
+        name="about"
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="write about yourself"
+      ></textarea>
+      <div>submit:<input type="submit" name="date" /></div>
+      <br />
+      <div>reset:<input type="reset" name="date" /></div>
+    </form>
+  </body>
+</html>
